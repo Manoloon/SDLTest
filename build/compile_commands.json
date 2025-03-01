@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/CProjects/SDLTest/build",
+  "command": "D:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/SDLTest.dir/includes_C.rsp -g -o CMakeFiles\\SDLTest.dir\\main.c.obj -c D:\\CProjects\\SDLTest\\main.c",
+  "file": "D:/CProjects/SDLTest/main.c",
+  "output": "CMakeFiles/SDLTest.dir/main.c.obj"
+}
+]

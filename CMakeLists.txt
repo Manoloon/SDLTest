@@ -6,14 +6,13 @@ project(SDLTest VERSION 0.1.0 LANGUAGES C)
 if(CMAKE_CXX_COMPILER_ID MATCHES "(GNU|Clang)")
     add_compile_options(-Wall -Wextra -Wpedantic -Wshadow)
 endif()
-
+# Find SDL2
+find_package(SDL2 REQUIRED)
 # Add the executable target
 add_executable(SDLTest main.c)
 
-# Link SDL2
-set(SDL2_INCLUDE_DIR "d:/msys64/mingw64/include/SDL2")
-set(SDL2_LIBRARY "d:/msys64/mingw64/lib/libSDL2.dll.a")
-include_directories(${SDL2_INCLUDE_DIR})
-target_link_libraries(SDLTest PRIVATE ${SDL2_LIBRARY})
+# Include SDL2 headers
 target_include_directories(SDLTest PRIVATE ${SDL2_INCLUDE_DIRS})
+
+# Link SDL2 library
 target_link_libraries(SDLTest PRIVATE ${SDL2_LIBRARIES})
