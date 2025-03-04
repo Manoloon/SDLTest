@@ -1,3 +1,0 @@
-D:/CProjects/SDLTest/build/CMakeFiles/SDLTest.dir
-D:/CProjects/SDLTest/build/CMakeFiles/edit_cache.dir
-D:/CProjects/SDLTest/build/CMakeFiles/rebuild_cache.dir

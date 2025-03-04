@@ -1,3 +1,0 @@
-"D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SDLTest.dir/objects.a
-D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\SDLTest.dir/objects.a @CMakeFiles\SDLTest.dir\objects1.rsp
-D:\msys64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SDLTest.dir/objects.a -Wl,--no-whole-archive -o SDLTest.exe -Wl,--out-implib,libSDLTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SDLTest.dir\linkLibs.rsp
